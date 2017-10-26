@@ -6,15 +6,27 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": ["FHIR"],
+    "keywords": [
+        "FHIR"
+    ],
     "author": "Meir Gottlieb, TTRider",
     "license": "MIT",
     "devDependencies": {
+        "@types/glob": "^5.0.33",
         "@types/node": "^8.0.47",
         "eslint": "^4.9.0",
+        "jshint": "^2.9.5",
         "jslint": "^0.11.0",
         "tslint": "^5.8.0",
         "types": "^0.1.1",
         "typescript": "^2.5.3"
+    },
+    "dependencies": {
+        "@types/async": "^2.0.44",
+        "@types/change-case": "^2.3.1",
+        "@types/fhir": "0.0.30",
+        "async": "^2.5.0",
+        "change-case": "^3.0.1",
+        "glob": "^7.1.2"
     }
 }
