@@ -1,0 +1,20 @@
+{
+    "name": "fhir-spec-reader",
+    "version": "0.0.1",
+    "description": "This project generates downloads and reads FHIR specification into object model. Based on artifacthealth/fhir-dts-generator",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["FHIR"],
+    "author": "Meir Gottlieb, TTRider",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^8.0.47",
+        "eslint": "^4.9.0",
+        "jslint": "^0.11.0",
+        "tslint": "^5.8.0",
+        "types": "^0.1.1",
+        "typescript": "^2.5.3"
+    }
+}
